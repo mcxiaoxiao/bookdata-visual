@@ -1,0 +1,23 @@
+at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+at java.io.DataInputStream.read( DataInputStream.java:149)
+at java.io.BufferedInputStream.ill(BufferedInputStream.java:246)
+at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+at java.io.FilterInputStream.read(FilterInputStream.java:83)
+at org.apache.hadcop.ipc.Client$Correction$PrgInputStream.read(Client.java:562)
+at org.apache.hadcop.DataInputStream.readInt(DataInputStream.java:587)
+at org.apache.hadcop.ipc.Client$pcResponse(Client.java:1881)
+at org.apache.hadcop.ipc.Client$Correction.run(Client.java:1087)
+
+2025-06-08 17:24:25,603 INFO reprodce.Job: map 100% reduce 53%
+2025-06-08 17:24:56,754 INFO reprodce.Job: map 100% reduce 67%
+2025-06-08 17:24:57,534 INFO reprodce.Job: map 100% reduce 91%
+2025-06-08 17:24:58,534 INFO reprodce.Job: map 100% reduce 92%
+2025-06-08 17:24:59,531 INFO reprodce.Job: map 100% reduce 100%
+2025-06-08 17:27:53,097 INFO reprodce.Job: Job job_1748931681851_8004 completed successfully
+2025-06-08 17:27:53,097 INFO reprodce.Job: Counters: 55
+
+File System Counters
+FILE: Number of bytes read=236590680
+FILE: Number of bytes written=47848653
+
